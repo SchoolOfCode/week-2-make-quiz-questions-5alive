@@ -1,16 +1,45 @@
 // questions.js
 
+/* question_text: "question"
+  question_type: "multiple_choice"
+  options:
+  correct_option:
+  correct_explanation:
+*/
+
 const questions = [
-  {"question_text" : "What is the command you would enter into the terminal to check the contents of the directory you're in?"}, 
-  {"question_text" :"Which one of these behaviors is not part of a high performance routine?"} , 
-  {"question_text" :"What does GAN stand for?"} , 
-  {"question_text" :"Which one of these is not a key value of the Agile manifesto?"} , 
-  {"question_text" :"Which one of these was not a room in the disney ideation process?"} , 
-  {"question_text" :"Select the correct words to complete the following sentence - Neurons that ____ together _____ together "} , 
-  {"question_text" :"In computational thinking, between understanding the problem and writing an algorithm, which of the follwoing is not one of the three steps?"} , 
-  {"question_text" :"What is the correct git command to check whether you latest pull has the latest changes from the remote repository?"} , 
-  {"question_text" :"Which of the following characters was not a part of Chris's git memory palace "} , 
-  {"question_text" :"How often should you compare yourself to others?"}
+  {"question_text" : "What is the command you would enter into the terminal to check the contents of the directory you're in?",
+    "question_type": "multiple_choice", "options": ["ls" , "pwd", "log", "cd"], "correct_option": 0, "correct_explanation": "PH - Well done!",
+  }, 
+  {"question_text" :"Which one of these behaviors is not part of a high performance routine?", 
+    "question_type": "multiple_choice", "options": ["preperation", "focus", "recovery", "reflection"],"correct_option": 3, "correct_explanation": "PH - Well done!"
+  } , 
+  {"question_text" :"What does GAN stand for?", 
+    "question_type": "multiple_choice", "options": ["Great And Noble", "Generative Adversarial Network", "General Advisory Network", "GIT Accumulation Node"],
+    "correct_option": 1, "correct_explanation": "PH - Well done!" 
+  }, 
+  {"question_text" :"Which one of these is not a key value of the Agile manifesto?",
+    "question_type": "multiple_choice", "options": ["Individuals and interactions over processes and tools", "Working software over comprehensive documentation",
+      "Customer interpretation over contract law","Responding to change over following a plan"], "correct_option": 2, "correct_explanation": "PH - Well done!",
+  } , 
+  {"question_text" :"Which one of these was not a room in the disney ideation process?",
+    "question_type": "multiple_choice", "options": ["Dreamer room", "Realist room", "Engineer room", "Critic room"], "correct_option": 2, "correct_explanation": "PH - Well done!",
+  } , 
+  {"question_text" :"Select the correct words to complete the following sentence - Neurons that ____ together _____ together ",
+    "question_type": "multiple_choice", "options": ["Fire/Wire", "Think/Link", "Wire/Fire", "Link/Think"], "correct_option": 0, "correct_explanation": "PH - Well done!",
+  } , 
+  {"question_text" :"In computational thinking, between understanding the problem and writing an algorithm, which of the following is not one of the three steps?",
+    "question_type": "multiple_choice", "options": ["Break It Down", "Look for Patterns", "Debugging", "Abstract Away"], "correct_option": 2, "correct_explanation": "PH - Well done!"
+  } , 
+  {"question_text" :"What is the correct git command to check whether you latest pull has the latest changes from the remote repository?", 
+    "question_type": "multiple_choice", "options": ["Git log", "Git status", "Git Pull", "Git Push"], "correct_option": 0, "correct_explanation": "PH - Well done!"
+  } , 
+  {"question_text" :"Which of the following characters was not a part of Chris's git memory palace?",
+    "question_type": "multiple_choice", "options": ["A stick", "A smurf", "A checkout person", "A tiger"], "correct_option": 3, "correct_explanation": "PH - Well done!"
+  } , 
+  {"question_text" :"How often should you compare yourself to others?", 
+    "question_type": "multiple_choice", "options": ["Sometimes", "Every 30 minutes", "Once a day", "Never"], "correct_option": 3, "correct_explanation": "PH - Well done!"
+  }
   
 ];
 
